@@ -9,5 +9,6 @@ db.Raw("select sum(age) from users where role = ?", "admin").Scan(&age)
 
 ```
 - [A Non-Intrusive Transaction Management Lib in Go — How it Works? | by Jin Feng | Medium](https://medium.com/@jfeng45/a-non-intrusive-transaction-management-lib-in-go-how-it-works-51d4b2ede8af)
+- https://github.com/kataras/iris/blob/main/_examples/database/mysql/entity/product.go
 - Use golang parser
   - [mockc/internal/mockc/parser.go at master · KimMachineGun/mockc](https://github.com/KimMachineGun/mockc/blob/master/internal/mockc/parser.go)
